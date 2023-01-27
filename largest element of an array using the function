@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+{
+// initialize array
+int arr[]={25,11,7,75,56};
+// calculate length of array arr 
+int length = size of (arr)/size of (arr[0]);
+// initialize max with first element of array.
+int max = arr[0];
+// loop througth the array
+for (int i=0;i<length;i++){
+// compare element of array with max
+if (arr[i]>max)
+max=arr[i];
+}
+printf ("largest element present in given array:%d\n",max);
+return 0;
+}
